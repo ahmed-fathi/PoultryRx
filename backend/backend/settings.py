@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # ------------------------------------------------------------------
 SECRET_KEY = os.environ.get(
     'SECRET_KEY',
-    'django-insecure-dev-only-change-in-production-poultryrx-2024'
+    'django-insecure-dev-only-change-in-production-poultryrx-2026'
 )
 
 DEBUG = os.environ.get('DEBUG', 'True').lower() not in ('false', '0', 'no')
