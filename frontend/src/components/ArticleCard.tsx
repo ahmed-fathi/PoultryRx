@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../../styles/components/_article-card.scss'
+import '../styles/components/_article-card.scss'
 
 export default function ArticleCard({ article }: { article: any }) {
   return (
