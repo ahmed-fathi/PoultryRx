@@ -1,7 +1,8 @@
 import React from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { fetchFeatured, fetchTools } from '../../services/mockApi'
+import { fetchFeatured, fetchTools } from '../../services/api'
 import ArticleCard from '../../components/ArticleCard'
+import ToolCard from '../../components/ToolCard'
 
 export default function Landing() {
   const { data: featured } = useQuery(['featured'], fetchFeatured)
@@ -19,9 +20,10 @@ export default function Landing() {
       <h2>AI Tools</h2>
       <div className="tools-list">
         {tools?.results.map((t: any) => (
-          <div key={t.id} className="tool-card">{t.name}</div>
+          <ToolCard key={t.id} tool={t} />
         ))}
       </div>
     </section>
   )
 }
+

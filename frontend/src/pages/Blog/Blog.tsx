@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { fetchBlog } from '../../services/mockApi'
+import { fetchBlog } from '../../services/api'
 import ArticleCard from '../../components/ArticleCard'
 
 export default function Blog() {
@@ -17,3 +17,4 @@ export default function Blog() {
     </section>
   )
 }
+

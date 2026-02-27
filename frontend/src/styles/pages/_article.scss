@@ -1,0 +1,42 @@
+@import "../abstracts/variables";
+
+.article-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+
+  h1 {
+    color: $brand-color;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .meta {
+    color: $muted;
+    font-size: 0.875rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .content {
+    line-height: 1.7;
+    font-size: 1.05rem;
+
+    p {
+      margin: 0 0 1rem;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    h2, h3 {
+      color: $brand-color;
+      margin-top: 2rem;
+    }
+  }
+}
