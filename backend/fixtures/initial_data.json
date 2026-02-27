@@ -1,0 +1,469 @@
+[
+  {
+    "model": "blog.userprofile",
+    "pk": "3dd81b4d-2cd3-4d77-8dbc-051fafa17485",
+    "fields": {
+      "username": "dr_smith",
+      "first_name": "John",
+      "last_name": "Smith"
+    }
+  },
+  {
+    "model": "blog.userprofile",
+    "pk": "5c01a59f-a617-4098-8b77-e456ce049dbc",
+    "fields": {
+      "username": "farmer_jane",
+      "first_name": "Jane",
+      "last_name": "Doe"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "6e298f4d-22da-471b-a5c0-7ebaad43cffd",
+    "fields": {
+      "title": "Optimizing Feed Conversion",
+      "slug": "optimizing-feed-conversion",
+      "excerpt": "Tips to improve FCR on small farms.",
+      "content": "<p>Full article content 1</p>",
+      "author": "3dd81b4d-2cd3-4d77-8dbc-051fafa17485",
+      "publish_date": "2026-01-01T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=1",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": true,
+      "created_at": "2026-01-01T00:00:00Z",
+      "updated_at": "2026-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "4f67b3ce-cc90-445c-9b2e-49f514abffd1",
+    "fields": {
+      "title": "Ventilation Strategies",
+      "slug": "ventilation-strategies",
+      "excerpt": "How to keep birds cool.",
+      "content": "<p>Full article content 2</p>",
+      "author": "5c01a59f-a617-4098-8b77-e456ce049dbc",
+      "publish_date": "2026-01-05T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=2",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": true,
+      "created_at": "2026-01-05T00:00:00Z",
+      "updated_at": "2026-01-05T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.userprofile",
+    "pk": "78018abc-84e3-4436-a456-9cdad706dfe8",
+    "fields": {
+      "username": "vet_mike",
+      "first_name": "",
+      "last_name": ""
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "4407fd0f-f390-4ce3-a100-ea92dd7f75f0",
+    "fields": {
+      "title": "Disease Prevention Basics",
+      "slug": "disease-prevention-basics",
+      "excerpt": "Biosecurity essentials.",
+      "content": "<p>Full article content 3</p>",
+      "author": "78018abc-84e3-4436-a456-9cdad706dfe8",
+      "publish_date": "2026-01-10T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=3",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": true,
+      "created_at": "2026-01-10T00:00:00Z",
+      "updated_at": "2026-01-10T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "a4513ac2-c4d1-403b-8026-50b88f8a8ce0",
+    "fields": {
+      "title": "Egg Production Optimization",
+      "slug": "egg-production-optimization",
+      "excerpt": "Maximize laying cycles.",
+      "content": "<p>Full article content 4</p>",
+      "author": "3dd81b4d-2cd3-4d77-8dbc-051fafa17485",
+      "publish_date": "2026-01-12T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=4",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": true,
+      "created_at": "2026-01-12T00:00:00Z",
+      "updated_at": "2026-01-12T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "6d9360c8-0ed8-47ae-b762-7fbafecf5a49",
+    "fields": {
+      "title": "Water Management",
+      "slug": "water-management",
+      "excerpt": "Ensuring clean water access.",
+      "content": "<p>Full article content 5</p>",
+      "author": "5c01a59f-a617-4098-8b77-e456ce049dbc",
+      "publish_date": "2026-01-15T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=5",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": true,
+      "created_at": "2026-01-15T00:00:00Z",
+      "updated_at": "2026-01-15T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "7b465eee-36df-4975-b4e1-dc2d9fb099d1",
+    "fields": {
+      "title": "Nutrition for Broilers",
+      "slug": "nutrition-for-broilers",
+      "excerpt": "Feeding schedules and tips.",
+      "content": "<p>Full article content 6</p>",
+      "author": "78018abc-84e3-4436-a456-9cdad706dfe8",
+      "publish_date": "2026-01-18T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=6",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-01-18T00:00:00Z",
+      "updated_at": "2026-01-18T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "b5a88f97-2cca-45e4-818d-5f000fc3c2fc",
+    "fields": {
+      "title": "Lighting & Behavior",
+      "slug": "lighting-and-behavior",
+      "excerpt": "How light affects birds.",
+      "content": "<p>Full article content 7</p>",
+      "author": "3dd81b4d-2cd3-4d77-8dbc-051fafa17485",
+      "publish_date": "2026-01-20T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=7",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-01-20T00:00:00Z",
+      "updated_at": "2026-01-20T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "b9efa088-a038-423f-bcc8-61bbcbc0e67f",
+    "fields": {
+      "title": "Incubation Tips",
+      "slug": "incubation-tips",
+      "excerpt": "Improve hatch rates.",
+      "content": "<p>Full article content 8</p>",
+      "author": "5c01a59f-a617-4098-8b77-e456ce049dbc",
+      "publish_date": "2026-01-22T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=8",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-01-22T00:00:00Z",
+      "updated_at": "2026-01-22T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "04c5353f-4dc4-4a70-9dad-d841026ed711",
+    "fields": {
+      "title": "Processing & Welfare",
+      "slug": "processing-and-welfare",
+      "excerpt": "Balancing efficiency and welfare.",
+      "content": "<p>Full article content 9</p>",
+      "author": "78018abc-84e3-4436-a456-9cdad706dfe8",
+      "publish_date": "2026-01-24T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=9",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-01-24T00:00:00Z",
+      "updated_at": "2026-01-24T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "698b5135-e7d0-48e9-8488-f4c7155ecb68",
+    "fields": {
+      "title": "Sustainable Feed Ingredients",
+      "slug": "sustainable-feed-ingredients",
+      "excerpt": "Alternative ingredients overview.",
+      "content": "<p>Full article content 10</p>",
+      "author": "3dd81b4d-2cd3-4d77-8dbc-051fafa17485",
+      "publish_date": "2026-01-26T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=10",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-01-26T00:00:00Z",
+      "updated_at": "2026-01-26T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "c32d34d8-f3e8-40e5-953b-d6cde8443a72",
+    "fields": {
+      "title": "Waste Management",
+      "slug": "waste-management",
+      "excerpt": "Environmentally sound practices.",
+      "content": "<p>Full article content 11</p>",
+      "author": "5c01a59f-a617-4098-8b77-e456ce049dbc",
+      "publish_date": "2026-01-28T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=11",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-01-28T00:00:00Z",
+      "updated_at": "2026-01-28T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "f934f02e-f26c-4445-b841-f33c98cfadc1",
+    "fields": {
+      "title": "Vaccination Scheduling",
+      "slug": "vaccination-scheduling",
+      "excerpt": "Protocols and tips.",
+      "content": "<p>Full article content 12</p>",
+      "author": "78018abc-84e3-4436-a456-9cdad706dfe8",
+      "publish_date": "2026-02-01T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=12",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-02-01T00:00:00Z",
+      "updated_at": "2026-02-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "b2c2cef2-489d-4a00-baa5-be984ce59843",
+    "fields": {
+      "title": "Biosecurity Checklists",
+      "slug": "biosecurity-checklists",
+      "excerpt": "Daily and weekly checks.",
+      "content": "<p>Full article content 13</p>",
+      "author": "3dd81b4d-2cd3-4d77-8dbc-051fafa17485",
+      "publish_date": "2026-02-03T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=13",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-02-03T00:00:00Z",
+      "updated_at": "2026-02-03T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "206eaa02-eb50-49ff-b51e-12f8d73b95bd",
+    "fields": {
+      "title": "Small Farm Marketing",
+      "slug": "small-farm-marketing",
+      "excerpt": "Selling your produce.",
+      "content": "<p>Full article content 14</p>",
+      "author": "5c01a59f-a617-4098-8b77-e456ce049dbc",
+      "publish_date": "2026-02-05T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=14",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-02-05T00:00:00Z",
+      "updated_at": "2026-02-05T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "e870eae1-8b5b-44ed-9099-5e40191df4bf",
+    "fields": {
+      "title": "Record Keeping",
+      "slug": "record-keeping",
+      "excerpt": "Simple record systems.",
+      "content": "<p>Full article content 15</p>",
+      "author": "78018abc-84e3-4436-a456-9cdad706dfe8",
+      "publish_date": "2026-02-07T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=15",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-02-07T00:00:00Z",
+      "updated_at": "2026-02-07T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "1ad659ab-0dcc-4463-8797-32879c3a8c18",
+    "fields": {
+      "title": "Water Quality Testing",
+      "slug": "water-quality-testing",
+      "excerpt": "Monitoring water health.",
+      "content": "<p>Full article content 16</p>",
+      "author": "3dd81b4d-2cd3-4d77-8dbc-051fafa17485",
+      "publish_date": "2026-02-09T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=16",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-02-09T00:00:00Z",
+      "updated_at": "2026-02-09T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "63f3c246-16e8-410c-8982-705fafab9b20",
+    "fields": {
+      "title": "Housing Design",
+      "slug": "housing-design",
+      "excerpt": "Cost-effective housing ideas.",
+      "content": "<p>Full article content 17</p>",
+      "author": "5c01a59f-a617-4098-8b77-e456ce049dbc",
+      "publish_date": "2026-02-11T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=17",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-02-11T00:00:00Z",
+      "updated_at": "2026-02-11T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "0868788f-2387-4019-a946-ca9dfe2ca992",
+    "fields": {
+      "title": "Heat Stress Management",
+      "slug": "heat-stress-management",
+      "excerpt": "Avoiding losses in summer.",
+      "content": "<p>Full article content 18</p>",
+      "author": "78018abc-84e3-4436-a456-9cdad706dfe8",
+      "publish_date": "2026-02-13T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=18",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-02-13T00:00:00Z",
+      "updated_at": "2026-02-13T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "b34b65fe-cd66-4915-a751-e19cc4b06ce5",
+    "fields": {
+      "title": "Preparing for Winter",
+      "slug": "preparing-for-winter",
+      "excerpt": "Keeping birds safe in cold weather.",
+      "content": "<p>Full article content 19</p>",
+      "author": "3dd81b4d-2cd3-4d77-8dbc-051fafa17485",
+      "publish_date": "2026-02-15T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=19",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-02-15T00:00:00Z",
+      "updated_at": "2026-02-15T00:00:00Z"
+    }
+  },
+  {
+    "model": "blog.article",
+    "pk": "c996dedd-88b9-40a7-8cf8-3e74649cd292",
+    "fields": {
+      "title": "Scaling Production",
+      "slug": "scaling-production",
+      "excerpt": "When and how to scale.",
+      "content": "<p>Full article content 20</p>",
+      "author": "5c01a59f-a617-4098-8b77-e456ce049dbc",
+      "publish_date": "2026-02-17T00:00:00Z",
+      "status": "published",
+      "cover_image": "https://via.placeholder.com/400x200?text=20",
+      "media": [],
+      "estimated_read_time": 3,
+      "is_featured": false,
+      "created_at": "2026-02-17T00:00:00Z",
+      "updated_at": "2026-02-17T00:00:00Z"
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": "82ef8b65-b7d6-4fc4-b749-511739e2b751",
+    "fields": {
+      "name": "FCR Calculator",
+      "slug": "fcr-calculator",
+      "description": "Feed conversion ratio tool",
+      "entry_point": "/tools/fcr",
+      "example_input": {}
+    }
+  },
+  {
+    "model": "tools.tool",
+    "pk": "c3499dbf-be18-46f4-97e3-5235d5d92501",
+    "fields": {
+      "name": "EEPI Calculator",
+      "slug": "eepi-calculator",
+      "description": "Economic evaluation",
+      "entry_point": "/tools/eepi",
+      "example_input": {}
+    }
+  },
+  {
+    "model": "library.libraryresource",
+    "pk": "2e2258c9-9e3d-4a6a-9749-c66e37bf2511",
+    "fields": {
+      "title": "Farm Template A",
+      "type": "template",
+      "mock_download_url": "",
+      "file_size_bytes": null
+    }
+  },
+  {
+    "model": "library.libraryresource",
+    "pk": "bfe7fd04-dbc9-4013-b8ce-1b7391e42cc9",
+    "fields": {
+      "title": "Nutrition Guide PDF",
+      "type": "pdf",
+      "mock_download_url": "",
+      "file_size_bytes": null
+    }
+  },
+  {
+    "model": "library.faqentry",
+    "pk": "49505595-cacd-4b94-9858-53c6c8c028cc",
+    "fields": {
+      "question": "How do I register?",
+      "answer": "Use email or mobile registration (mocked).",
+      "order": 0
+    }
+  },
+  {
+    "model": "library.faqentry",
+    "pk": "9db9acd0-cc66-4612-9b0c-4465c0f5484e",
+    "fields": {
+      "question": "Are uploads validated?",
+      "answer": "Yes \u2014 backend must validate MIME and size.",
+      "order": 1
+    }
+  }
+]
