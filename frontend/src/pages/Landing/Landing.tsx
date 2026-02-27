@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { fetchFeatured, fetchTools } from '../../services/mockApi'
+import { fetchFeatured, fetchTools } from '../../services/api'
 import ArticleCard from '../../components/ArticleCard'
 import ToolCard from '../../components/ToolCard'
 
@@ -26,3 +26,4 @@ export default function Landing() {
     </section>
   )
 }
+

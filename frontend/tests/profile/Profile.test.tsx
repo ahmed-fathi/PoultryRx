@@ -5,11 +5,11 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { MemoryRouter, Route, Routes } from 'react-router-dom'
 import Profile from '../../src/pages/Profile/Profile'
 
-vi.mock('../../src/services/mockApi', () => ({
+vi.mock('../../src/services/api', () => ({
   fetchProfile: vi.fn(),
 }))
 
-import { fetchProfile } from '../../src/services/mockApi'
+import { fetchProfile } from '../../src/services/api'
 
 const mockProfile = {
   id: 'p1',

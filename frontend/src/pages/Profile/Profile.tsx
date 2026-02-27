@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import { fetchProfile } from '../../services/mockApi'
+import { fetchProfile } from '../../services/api'
 
 export default function Profile() {
   const { username } = useParams()
@@ -18,3 +18,4 @@ export default function Profile() {
     </section>
   )
 }
+

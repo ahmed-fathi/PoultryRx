@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
-import { fetchArticle } from '../../services/mockApi'
+import { fetchArticle } from '../../services/api'
 
 export default function Article() {
   const { slug } = useParams()
@@ -23,3 +23,4 @@ export default function Article() {
     </article>
   )
 }
+

@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { fetchLibrary } from '../../services/mockApi'
+import { fetchLibrary } from '../../services/api'
 
 export default function Library() {
   const { data } = useQuery(['library'], fetchLibrary)
@@ -16,3 +16,4 @@ export default function Library() {
     </section>
   )
 }
+

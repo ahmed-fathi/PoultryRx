@@ -5,11 +5,11 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { MemoryRouter } from 'react-router-dom'
 import Blog from '../../src/pages/Blog/Blog'
 
-vi.mock('../../src/services/mockApi', () => ({
+vi.mock('../../src/services/api', () => ({
   fetchBlog: vi.fn(),
 }))
 
-import { fetchBlog } from '../../src/services/mockApi'
+import { fetchBlog } from '../../src/services/api'
 
 const makeArticles = (count: number) =>
   Array.from({ length: count }, (_, i) => ({

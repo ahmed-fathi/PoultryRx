@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: poultryrx
+      POSTGRES_USER: poultryrx
+      POSTGRES_PASSWORD: poultryrx
+    ports:
+      - "5432:5432"
+    volumes:
+      - poultryrx_pg_data:/var/lib/postgresql/data
+
+volumes:
+  poultryrx_pg_data:

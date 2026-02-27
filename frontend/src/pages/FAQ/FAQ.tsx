@@ -1,6 +1,6 @@
 import React from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { fetchFAQ } from '../../services/mockApi'
+import { fetchFAQ } from '../../services/api'
 
 export default function FAQ() {
   const { data } = useQuery(['faq'], fetchFAQ)
@@ -16,3 +16,4 @@ export default function FAQ() {
     </section>
   )
 }
+

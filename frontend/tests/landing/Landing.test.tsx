@@ -5,13 +5,12 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { MemoryRouter } from 'react-router-dom'
 import Landing from '../../src/pages/Landing/Landing'
 
-// Mock the mock API
-vi.mock('../../src/services/mockApi', () => ({
+vi.mock('../../src/services/api', () => ({
   fetchFeatured: vi.fn(),
   fetchTools: vi.fn(),
 }))
 
-import { fetchFeatured, fetchTools } from '../../src/services/mockApi'
+import { fetchFeatured, fetchTools } from '../../src/services/api'
 
 const mockFeatured = {
   articles: [

@@ -6,12 +6,12 @@ import { MemoryRouter } from 'react-router-dom'
 import Library from '../../src/pages/Library/Library'
 import FAQ from '../../src/pages/FAQ/FAQ'
 
-vi.mock('../../src/services/mockApi', () => ({
+vi.mock('../../src/services/api', () => ({
   fetchLibrary: vi.fn(),
   fetchFAQ: vi.fn(),
 }))
 
-import { fetchLibrary, fetchFAQ } from '../../src/services/mockApi'
+import { fetchLibrary, fetchFAQ } from '../../src/services/api'
 
 const mockLibrary = {
   results: [
