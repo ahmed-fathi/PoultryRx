@@ -1,0 +1,43 @@
+@import "../abstracts/variables";
+
+.tool-card {
+  border: 1px solid lighten($brand-color, 50%);
+  border-radius: 6px;
+  padding: 1rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+
+  &__name {
+    margin: 0;
+    font-size: 1rem;
+    color: $brand-color;
+  }
+
+  &__category {
+    font-size: 0.75rem;
+    color: $muted;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  &__description {
+    margin: 0;
+    font-size: 0.875rem;
+    color: $muted;
+    flex: 1;
+  }
+
+  &__link {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: $brand-color;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

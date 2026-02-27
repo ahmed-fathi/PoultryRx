@@ -1,0 +1,37 @@
+@import "../abstracts/variables";
+
+.profile-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+
+  h1 {
+    color: $brand-color;
+    margin-bottom: 0.25rem;
+  }
+
+  .profile-page__name {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+
+  .profile-page__stats {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }
+
+  .profile-page__stat {
+    font-size: 0.9rem;
+    color: $muted;
+
+    strong {
+      color: #222;
+    }
+  }
+}
