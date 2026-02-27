@@ -1,0 +1,3 @@
+@import "../abstracts/variables";
+body { font-family: Inter, Arial, sans-serif; color: $muted; margin: 0; padding: 0; }
+.site-header { background: $brand-color; color: white; padding: 1rem; }

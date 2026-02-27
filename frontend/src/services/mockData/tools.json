@@ -1,0 +1,4 @@
+[
+  { "id": "t1", "name": "FCR Calculator", "slug": "fcr-calculator", "description": "Feed conversion ratio tool", "entry_point": "/tools/fcr" },
+  { "id": "t2", "name": "EEPI Calculator", "slug": "eepi-calculator", "description": "Economic evaluation", "entry_point": "/tools/eepi" }
+]

@@ -1,0 +1,4 @@
+[
+  { "id": "l1", "title": "Farm Template A", "type": "template", "mock_download_url": "#" },
+  { "id": "l2", "title": "Nutrition Guide PDF", "type": "pdf", "mock_download_url": "#" }
+]

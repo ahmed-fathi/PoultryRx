@@ -1,0 +1,4 @@
+[
+  { "id": "p1", "username": "dr_smith", "first_name": "John", "last_name": "Smith", "public_articles_count": 5, "total_read_count": 1234, "public_articles": [ { "id": "a1", "title": "Optimizing Feed Conversion", "slug": "optimizing-feed-conversion" } ] },
+  { "id": "p2", "username": "farmer_jane", "first_name": "Jane", "last_name": "Doe", "public_articles_count": 8, "total_read_count": 987, "public_articles": [] }
+]

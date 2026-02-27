@@ -1,0 +1,4 @@
+[
+  { "id": "q1", "question": "How do I register?", "answer": "Use email or mobile registration (mocked)." },
+  { "id": "q2", "question": "Are uploads validated?", "answer": "Yes — backend must validate MIME and size." }
+]
