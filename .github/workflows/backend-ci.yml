@@ -1,0 +1,42 @@
+name: Backend CI
+
+on:
+  push:
+    branches: [main, "copilot/**"]
+    paths: ["backend/**"]
+  pull_request:
+    branches: [main]
+    paths: ["backend/**"]
+
+jobs:
+  test:
+    name: Django Tests
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run system check
+        run: python manage.py check
+        env:
+          DJANGO_SETTINGS_MODULE: config.settings
+          DJANGO_DEBUG: "True"
+
+      - name: Run tests
+        run: python manage.py test tests --verbosity=2
+        env:
+          DJANGO_SETTINGS_MODULE: config.settings
+          DJANGO_DEBUG: "True"
